@@ -1,0 +1,40 @@
+.error{
+    color: darkred
+}
+
+body{
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+.js-swap{
+
+        border:2px solid #00CCFF;
+        height:40px;
+        width:80%;
+        margin:30px auto 10px auto;
+        text-align:center;
+        line-height:40px;
+        -webkit-border-radius:20px;
+        border-radius:20px;
+        color:#fff;
+        position:relative;
+        display:block;
+        font-weight:bold;
+        font-size:18px;
+        cursor:pointer;
+        -webkit-transition:all 3s linear;
+        -ms-transition:all 3s linear;
+        -o-transition:all 3s linear;
+        transition:all .3s linear;
+        background:-webkit-gradient(linear,left top,left bottom,color-stop(#FDEBF7,0),color-stop(#FC28FB,0.47),color-stop(#FFADF0,0.7),color-stop(#FBCAFF,0.94),color-stop(#FBCAFF,1));
+        background:-webkit-linear-gradient(top,#FDEBF7 0%,#FC28FB 47%,#FFADF0 70%,#FBCAFF 94%,#FBCAFF 100%);
+        background:-moz-linear-gradient(top,#FDEBF7 0%,#FC28FB 47%,#FFADF0 70%,#FBCAFF 94%,#FBCAFF 100%);
+        background:-o-linear-gradient(top,#FDEBF7 0%,#FC28FB 47%,#FFADF0 70%,#FBCAFF 94%,#FBCAFF 100%);
+        background:linear-gradient(top,#FDEBF7 0%,#FC28FB 47%,#FFADF0 70%,#FBCAFF 94%,#FBCAFF 100%);
+
+}
+
+.btn-sm{
+    margin: 7px;
+}
