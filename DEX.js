@@ -1,7 +1,7 @@
 // connect to Moralis server
   
-const serverUrl = ${{ secrets.serverURL }};
-const appId = ${{ secrets.appID}};
+const serverUrl = 'https://sywz2ydsp7ot.usemoralis.com:2053/server';
+const appId = '92YAU8QnsvWUOKXM0s30G0Cyue0V70aje67sCI6O';
 Moralis.start({ serverUrl, appId });
 
 Moralis
